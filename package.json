@@ -1,0 +1,40 @@
+{
+  "name": "hrx-journal-cms",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A CMS for the HRX Journal Project, created with Strapi",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "find-config": "^1.0.0",
+    "knex": "latest",
+    "pg": "latest",
+    "strapi": "3.0.0-beta.17.8",
+    "strapi-admin": "3.0.0-beta.17.8",
+    "strapi-hook-bookshelf": "3.0.0-beta.17.8",
+    "strapi-hook-knex": "3.0.0-beta.17.8",
+    "strapi-plugin-content-manager": "3.0.0-beta.17.8",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.17.8",
+    "strapi-plugin-email": "3.0.0-beta.17.8",
+    "strapi-plugin-upload": "3.0.0-beta.17.8",
+    "strapi-plugin-users-permissions": "3.0.0-beta.17.8",
+    "strapi-utils": "3.0.0-beta.17.8"
+  },
+  "author": {
+    "name": "Katherine Manning"
+  },
+  "strapi": {
+    "uuid": "15c3f417-e65c-4bd8-817e-621260b02b35"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
